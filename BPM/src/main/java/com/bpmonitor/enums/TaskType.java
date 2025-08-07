@@ -1,0 +1,11 @@
+package com.bpmonitor.enums;
+
+public enum TaskType{
+	
+	TOMCATSERVICETASK,
+	HTTPCHECKTASK,
+	PINGSERVERTASK,
+	QUERYDBTASK,
+	STFPCONNECTIONTASK,
+
+}
