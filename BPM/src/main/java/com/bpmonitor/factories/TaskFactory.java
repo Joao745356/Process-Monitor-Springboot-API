@@ -97,7 +97,7 @@ public class TaskFactory {
 	                        workloadStr	                      
 	                );
 	        } catch (ReflectiveOperationException e) {
-	        	log.debug("I fucked up here ");
+	        	log.debug("I messed up here ");
 	            throw new RuntimeException("Failed to instantiate task of type: " + taskClass.getSimpleName(), e);
 	        }
 	    }
